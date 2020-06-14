@@ -4,7 +4,7 @@ description:
 kind: ChaosExperiment
 metadata:
   name: {{ include "kubernetes-chaos.name" . }}-container-kill
-  version: 0.1.16
+  version: 0.1.20
   labels: 
     instance: {{ .Release.Name }}
     chart: {{ include "kubernetes-chaos.chart" . }}
